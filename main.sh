@@ -20,13 +20,13 @@ echo -e $lb "╚══════╝      ╚═════╝ ╚═╝  ╚�
 echo -e $r  "                                          Tool By - Dark Ghost"
 echo
 echo -e $y "What is Your Banner name ? : \c"
-read Bname
+read varBname
 echo
 echo -e $y "What is Your name ? : \c"
-read name
+read varname
 
-echo "cowsay -f eyes "$name" | lolcat " > name.txt
-echo "figlet "$Bname" |lolcat" > Bname.txt
+echo "cowsay -f eyes "$varname" | lolcat " > name.txt
+echo "figlet "$varBname" |lolcat" > Bname.txt
 echo "clear" > clear.txt
 echo "PS1='\$ '" > Temp.txt
 
